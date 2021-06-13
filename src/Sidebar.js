@@ -8,7 +8,7 @@ import SearchIcon from '@material-ui/icons/Search'
 import SidebarChat from './SidebarChat'
 
 function Sidebar () {
-  const [name, setName] = useState(['Karan', 'Nirmala', 'Naresh'])
+  const name = ['Karan', 'Nirmala', 'Naresh']
   const [input, setInput] = useState('')
 
   const filterName = (e) => {
